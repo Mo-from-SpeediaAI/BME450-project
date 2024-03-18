@@ -1,2 +1,12 @@
-# BME450-project
-BME450 Project
+# Title
+“ClinicPal: A Human-Like Chatbot for Local Clinic Reception”
+
+## Team members
+Mo Hossain (Mo-from-SpeediaAI)
+
+## Project decription
+In the digital age, first impressions are often made online, yet many healthcare websites remain sterile and unwelcoming. ClinicPal aims to revolutionize the patient experience by providing a conversational interface that greets, informs, and guides users through scheduling appointments on local clinic websites. This project will leverage the capabilities of neural networks to create a chatbot that is not only efficient but also exudes the warmth and care expected of a face-to-face interaction at a clinic’s reception. The primary dataset will be constructed from a compilation of conversation logs between receptionists and patients. These logs will provide the foundational dialogue structure needed for the chatbot to emulate human interaction accurately. A secondary dataset consisting of common FAQs and their answers could also be incorporated to ensure the chatbot can address routine inquiries effectively.
+
+Two neural network architectures will be explored: a typical Seq2Seq model as well as a Transformer model for its efficacy in understanding the context within dialogues. For the Seq2Seq model, the "Long Short-Term Memory" variant will be used to preserve context of the conversation over longer dialogues. The Transformer model will weigh the relevance of each word in the conversation for better comprehension. Both models will be evaluated based on their ability to accurately generate responses that are contextually relevant. The parameters to be modified and tested include the learning rate, batch size, number of layers, and the number of neurons/units in each layer. The training process will involve tuning these parameters to optimize for accuracy and reduce the likelihood of overfitting.
+
+The ultimate goal is to develop a chatbot that can assist website visitors in navigating the clinic’s services and booking appointments and also enhance their overall experience with a personalized and engaging interaction. The success of ClinicPal will be measured by its ability to handle a range of user queries with accurate and helpful responses, leading to successful appointment bookings. Training and test results will also be reported to showcase the performance and efficiency of each neural network architecture. If successfully achieved, ClinicPal could set a new standard for digital patient care and become an indispensable asset for healthcare providers in building patient rapport right from the first click.
